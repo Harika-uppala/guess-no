@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guees Number</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        .container{
+            height: auto;
+            width: 30%;
+            border: 2px solid black;
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        .main{
+            margin-left: 15%;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1>Number Guess Application</h1></center>
+        <center><h2>Rule:</h2></center><br>
+        <center>Select a number between 1 to 100 and guess it !!!</center><br>
+        <center><label>Guess a number :</label><input type="text" id="num" placeholder="Enter a value"></center><br><br>
+        <center><div id=res></div></center><br><br>
+        <div class="main">
+        <input type="submit" value="check" id="check" onclick="check()">
+        <input type="submit" value="reset" id="reset" onclick="window.location.reload()">
+        </div>
+        <br><br>
+    </div>
+    <script src="desing.js"></script>
+</body>
+</html>
